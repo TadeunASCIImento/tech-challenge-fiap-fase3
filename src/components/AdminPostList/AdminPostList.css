@@ -1,0 +1,101 @@
+  
+  li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f9f9f9;
+    margin-bottom: 10px;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  li:hover {
+    background-color: #e0e0e0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  h4 {
+    margin: 0;
+    font-size: 1.2em;
+    color: #333;
+    flex-grow: 1;
+    font-weight: bold;
+    text-align: left;
+  }
+  
+  li button {
+    margin-left: 10px;
+  }
+  
+  button.delete,
+  button.edit,
+  button.create {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-family: Monaco, monospace;
+    font-size: 1em;
+  }
+  
+  button.delete {
+    background-color: #ff4c4c;
+    color: #fff;
+  }
+  
+  button.delete:hover {
+    background-color: #ff1f1f;
+  }
+  
+  button.edit {
+    background-color: #4caf50;
+    color: #fff;
+  }
+  
+  button.edit:hover {
+    background-color: #165D94;
+  }
+
+  button.create {
+    background-color: #165D94;
+    margin-bottom: 60px;
+    color: #fff;
+  }
+  
+  button.create:hover {
+    background-color: #165D94;
+  }
+  
+  button:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.2);
+  }
+  
+  .post-list {
+    width: 60vw;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+    font-family: Monaco, monospace;
+  }
+  
+  .post-list:hover {
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .post-list h1 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+    border-bottom: 2px solid #e0e0e0;
+    padding-bottom: 10px;
+    font-family: Monaco, monospace;
+  }
+  

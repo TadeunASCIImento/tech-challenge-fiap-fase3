@@ -1,0 +1,71 @@
+.add-post-form {
+    display: block;
+    margin: 20px auto; /* Centraliza o formulário e adiciona margem superior */
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    font-family: Monaco, monospace;
+    transition: box-shadow 0.3s ease;
+    padding: 20px;
+    align-items: center;
+    margin-bottom: 20px;
+    width: 60vw;
+  }
+  
+  .add-post-form div {
+    margin-bottom: 15px;
+  }
+  
+  .add-post-form label {
+    font-weight: bold;
+    font-size: 1.1em;
+    color: #333;
+    display: block;
+    margin-bottom: 5px;
+    font-family: Monaco, monospace;
+  }
+  
+  .add-post-input-title,
+  .add-post-text-area-content {
+    width: 97%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+    font-family: Monaco, monospace;
+    box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.05);
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .add-post-input-title:focus,
+  .add-post-text-area-content:focus {
+    border-color: #888;
+    box-shadow: inset 0 4px 8px rgba(0, 0, 0, 0.1);
+    outline: none;
+  }
+  
+  .add-post-text-area-content {
+    resize: vertical; /* Permite redimensionar verticalmente */
+    min-height: 200px; /* Altura mínima para o textarea */
+  }
+  
+  .add-post-button {
+    background-color: #4caf50; /* Cor verde do botão */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: Monaco, monospace;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+  }
+  
+  .add-post-button:hover {
+    background-color: #388e3c; /* Verde mais escuro ao passar o mouse */
+  }
+  
+  .add-post-button:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(76, 175, 80, 0.5); /* Sombra de foco para acessibilidade */
+  }
