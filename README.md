@@ -1,7 +1,7 @@
 # Aplicação de Postagens - Front-End
 
 
-## Link para Apresentação Gravada
+## Apresentação Gravada do funcinamento da aplicação
 [Assista a apresentação](https://drive.google.com/file/d/1ey5QZu8Va-Cw867kn66cfxrQIUKKqidv/view?usp=drive_link)
 
 ## Descrição
